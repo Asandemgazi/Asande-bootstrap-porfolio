@@ -1,37 +1,22 @@
-/*
- * Globals
- */
-
- * {
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-/*
- * Base structure
- */
-
-/* body {
-} */
-
-/*
- * Header
- */
-
 .banner-wrap {
-  background-image: url(./assets1/WhatsApp\ Image\ 2023-09-19\ at\ 13.59.24_02009578.jpg);
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
   position: relative;
   z-index: 1;
+  size: 5em;
 }
 .overlay {
   z-index: -1;
   height: 100%;
   width: 100%;
-  background: black;
+  background: rgb(63, 29, 56);
   opacity: 50%;
   position: absolute;
   top: 0;
@@ -47,7 +32,7 @@
 
 .nav-masthead .nav-link:hover,
 .nav-masthead .nav-link:focus {
-  border-bottom-color: rgba(255, 255, 255, 0.25);
+  border-bottom-color: rgb(217,180,176);
 }
 
 .nav-masthead .nav-link + .nav-link {
@@ -55,23 +40,27 @@
 }
 
 .nav-masthead .active {
-  color: #fff;
-  border-bottom-color: #fff;
+  color: rgb(225, 152, 152);
+  border-bottom-color: rgb(225, 152, 152);
 }
 .scrolling {
-  background: black;
-  opacity: 90%;
+  background:rgb(237,245,252);
+  opacity: 50%;
   transition: all 0.5s;
 }
 
-/* ABOUT ME IMAGE */
-.col-md-5 {
-  width: 200px;
-  height: 250px;
-  overflow: hidden;
-  position: relative;
+#About-Us {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.display-1 {
+  color:  rgb(217,180,176);
 }
 .img-me {
-  width: 95%;
-  position: absolute;
+  width: 190px;
+  height: 185px;
+  padding-top: 10%;
+
+  
 }
